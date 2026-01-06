@@ -44,7 +44,7 @@ SELECT s.store_id , a.address ,a.location FROM store s JOIN address a ON s. addr
 
 #- ON keyword
 
-#- IN - Kayword
+#- IN - Keyword
 
 SELECT title , rating FROM film WHERE rating IN ("PG","G");
 
